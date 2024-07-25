@@ -68,7 +68,6 @@ def data_select():
         print(f"Error selecting data: {e}")
         return None
 
-
 @app.route("/get_data",methods=["GET"])
 def get_data():
     print("data has been succesfully sent")
